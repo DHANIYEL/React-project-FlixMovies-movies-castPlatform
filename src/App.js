@@ -16,6 +16,7 @@ const movie1 = {
 
 const App = () => {
   const [movies, setMovies] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
@@ -33,8 +34,8 @@ const App = () => {
       <div className="search">
         <input
           placeholder="Search  For Movies"
-          value="Superman"
-          onChange={() => {}}
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +44,7 @@ const App = () => {
           stroke-width="1.5"
           stroke="currentColor"
           className="search-icon"
-          onClick={() => {}}
+          onClick={() => searchMovies(searchTerm)}
         >
           <path
             stroke-linecap="round"
