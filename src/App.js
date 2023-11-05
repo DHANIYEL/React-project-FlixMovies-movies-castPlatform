@@ -1,19 +1,11 @@
+import React from "react";
 import "./App.css";
-import { useState } from "react";
+import SearchIcon from "./search.svg";
+// 9333c6e3
 
+const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=9333c6e3";
 const App = () => {
-  const [counter, setCounter] = useState(0);
-  return (
-    <div className="App">
-      <button onClick={() => setCounter((prevCount) => prevCount - 1)}>
-        -
-      </button>
-      <h1>{counter}</h1>
-      <button onClick={() => setCounter((prevCount) => prevCount + 1)}>
-        +
-      </button>
-    </div>
-  );
+  return <div className="App">APP</div>;
 };
 
 export default App;
