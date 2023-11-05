@@ -3,6 +3,7 @@ import "./App.css";
 import MovieCard from "./MovieCard";
 import { useState, useEffect } from "react";
 // 9333c6e3
+//FINILIZE
 
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=9333c6e3";
 
