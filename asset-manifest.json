@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-project-FlixMovies-movies-castPlatform/static/css/main.7c140578.css",
+    "main.js": "/React-project-FlixMovies-movies-castPlatform/static/js/main.85a06854.js",
+    "index.html": "/React-project-FlixMovies-movies-castPlatform/index.html",
+    "main.7c140578.css.map": "/React-project-FlixMovies-movies-castPlatform/static/css/main.7c140578.css.map",
+    "main.85a06854.js.map": "/React-project-FlixMovies-movies-castPlatform/static/js/main.85a06854.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c140578.css",
+    "static/js/main.85a06854.js"
+  ]
+}
