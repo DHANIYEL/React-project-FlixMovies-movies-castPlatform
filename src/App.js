@@ -7,13 +7,13 @@ import { useState, useEffect } from "react";
 
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=9333c6e3";
 
-const movie1 = {
-  Title: "Spiderman",
-  Year: "1990",
-  imdbID: "tt0100669",
-  Type: "movie",
-  Poster: "N/A",
-};
+// const movie = {
+//   Title: "Spiderman",
+//   Year: "1990",
+//   imdbID: "tt0100669",
+//   Type: "movie",
+//   Poster: "N/A",
+// };
 
 const App = () => {
   const [movies, setMovies] = useState([]);
